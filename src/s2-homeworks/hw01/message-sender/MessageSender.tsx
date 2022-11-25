@@ -13,13 +13,6 @@ const MessageSender = (props: any) => {
         setText(e.currentTarget.value)
     }
 
-    useEffect(() => {
-        if (textareaRef?.current) {
-            textareaRef.current.style.height = '0px'
-            textareaRef.current.style.height = textareaRef.current.scrollHeight + 'px'
-        }
-    }, [text])
-
     const addMessage = () => {
         setMessages([
             ...messages,
@@ -50,11 +43,9 @@ const MessageSender = (props: any) => {
                     id={'hw1-textarea'}
                     className={s.textarea}
                     ref={textareaRef}
-
                     title={'Shift+Enter for send'}
                     placeholder={'Type your message'}
                     value={text}
-
                     onChange={onChange}
                     onKeyDown={onKeyDown}
                 />
