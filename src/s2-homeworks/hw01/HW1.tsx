@@ -5,6 +5,7 @@ import s2 from '../../s1-main/App.module.css'
 import FriendMessage from './friend-message/FriendMessage'
 import avatar from './avatar.png'
 
+
 /*
 * 1 - описать тип MessageType
 * 2 - описать тип MessagePropsType в файле Message.tsx
@@ -55,7 +56,7 @@ export const friendMessage0: FriendMessageType = {
         name: 'Your friend', // можно менять
     },
     message: {
-        text: 'зеркальное сообщение для тренировки css', // можно менять
+        text: 'зеркальное сообщение для тренировки css ', // можно менять
         time: '22:00', // можно менять
     },
 }
@@ -63,7 +64,7 @@ export const friendMessage0: FriendMessageType = {
 const HW1 = () => {
     return (
         <div id={'hw1'}>
-            <div className={s2.hwTitle}>Homework #1</div>
+            <div className={s2.hwTitle}>Hometask № 1</div>
             <div className={s2.hw}>
                 {/*проверка отображения (не менять)*/}
                 <div>

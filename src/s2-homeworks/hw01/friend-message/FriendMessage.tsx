@@ -3,9 +3,7 @@ import s from './FriendMessage.module.css'
 import {FriendMessageType, MessageType} from "../HW1";
 
 
-
-
-export type FriendMessagePropsType= {
+export type FriendMessagePropsType = {
     message: FriendMessageType
 }
 // создать тип вместо any и отобразить приходящие данные
@@ -45,9 +43,7 @@ const FriendMessage = (props: FriendMessagePropsType) => {
                 id={'hw1-friend-time-' + props.message.id}
                 className={s.friendTime}
             >
-                {/*создаёт студент*/}
                 {props.message.message.time}
-                {/**/}
             </div>
         </div>
     )
