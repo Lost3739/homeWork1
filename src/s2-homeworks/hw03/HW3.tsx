@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { v1 } from 'uuid'
-import s2 from '../../s1-main/App.module.css'
+import s3 from './H3.module.css'
 import GreetingContainer from './GreetingContainer'
 
 /*
@@ -38,10 +38,10 @@ const HW3 = () => {
 
     return (
         <div id={'hw3'}>
-            <div className={s2.hwTitle}>Homework #3</div>
+            <div className={s3.hwTitle}>Hometask №3</div>
             {/*для автоматической проверки дз (не менять)*/}
 
-            <div className={s2.hw}>
+            <div className={s3.hw}>
                 <GreetingContainer
                     users={users}
                     addUserCallback={addUserCallback}
