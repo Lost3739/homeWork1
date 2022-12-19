@@ -6,18 +6,22 @@
 
 .all {
     --color: #06c;
+
 }
 
 .low {
     --color: #0c2;
+
 }
 
 .high {
     --color: #c00;
+
 }
 
 .middle {
     --color: #cc9c00;
+
 }
 
 .button {
@@ -52,4 +56,5 @@
     gap: 17px;
     flex-wrap: wrap;
     max-width: 450px;
+
 }
