@@ -2,6 +2,7 @@ import React from 'react'
 import s from './Message.module.css'
 import {MessageType} from "../HW1";
 import avatar from "../avatar.png";
+
 export type MessagePropsType = {
     message: MessageType
 }
